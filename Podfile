@@ -4,7 +4,7 @@ platform :osx, '10.10'
 # use_frameworks!
 
 target 'JSON Accelerator' do
-  pod 'AFNetworking', '~> 1.1'
+  pod 'AFNetworking'
   pod 'Sparkle'
 end
 

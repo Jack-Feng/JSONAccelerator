@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3231253BA26670E24022B206 /* libPods-JSON Accelerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0AE914DFD3F3C8AF6E9A87 /* libPods-JSON Accelerator.a */; };
 		440BCC411CC138AC00F6B37D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440BCC401CC138AC00F6B37D /* Images.xcassets */; };
 		4423310C149B9E290071978D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F21462D8E1007BF9DC /* main.m */; };
 		4423310D149B9E290071978D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FC4F91462D8E1007BF9DC /* AppDelegate.m */; };
@@ -75,6 +74,8 @@
 		7E7110961CCEF551006EF1CD /* DefaultJvmOutputLanguageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7110941CCD0A82006EF1CD /* DefaultJvmOutputLanguageWriter.m */; };
 		7E7110971CCEF55C006EF1CD /* DefaultOutputLanguageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7110911CCC4C40006EF1CD /* DefaultOutputLanguageWriter.m */; };
 		7EE613911CD189E3003BBDC8 /* ScalaCompanionObjectTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EE613901CD189E3003BBDC8 /* ScalaCompanionObjectTemplate.txt */; };
+		8BC414825B1CF5BA13981BE5 /* libPods-JSON Accelerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E0EF2678FC30A270ABDF59 /* libPods-JSON Accelerator.a */; };
+		DD56EFDE1B3CFC8A7D262B87 /* libPods-json-accelerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDB65FB12CECD62913F6865 /* libPods-json-accelerator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,7 +101,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C0AE914DFD3F3C8AF6E9A87 /* libPods-JSON Accelerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSON Accelerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E6FD82FDBA9B23282949DD /* Pods-JSON Accelerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.debug.xcconfig"; path = "Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.debug.xcconfig"; sourceTree = "<group>"; };
+		27E0EF2678FC30A270ABDF59 /* libPods-JSON Accelerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSON Accelerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440BCC401CC138AC00F6B37D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "JSON Accelerator/Images.xcassets"; sourceTree = "<group>"; };
 		4414992314642ABC002B6969 /* ClassBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassBaseObject.h; path = Models/ClassBaseObject.h; sourceTree = "<group>"; };
 		4414992414642ABC002B6969 /* ClassBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ClassBaseObject.m; path = Models/ClassBaseObject.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -206,8 +208,6 @@
 		44F7B43314CA1AF5004CEA55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		44FE6F65146C736900FA13F9 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = ViewControllers/MainWindowController.h; sourceTree = "<group>"; };
 		44FE6F76146C8D5600FA13F9 /* JavaTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JavaTemplate.txt; path = Resources/Templates/JavaTemplate.txt; sourceTree = "<group>"; };
-		4505C6A433EB3CFD4DD50D65 /* Pods-JSON Accelerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.debug.xcconfig"; sourceTree = "<group>"; };
-		523C1401A74134B179BA71B8 /* Pods-JSON Accelerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.release.xcconfig"; sourceTree = "<group>"; };
 		7D00408614A24F1700235189 /* AddressBook.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		7D00F424149FF30C00235189 /* JSONTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONTextView.h; path = Views/JSONTextView.h; sourceTree = "<group>"; };
 		7D00F425149FF30C00235189 /* JSONTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = JSONTextView.m; path = Views/JSONTextView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -238,7 +238,10 @@
 		7E7110931CCD0A82006EF1CD /* DefaultJvmOutputLanguageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultJvmOutputLanguageWriter.h; path = Models/OutputLanguageWriters/DefaultJvmOutputLanguageWriter.h; sourceTree = "<group>"; };
 		7E7110941CCD0A82006EF1CD /* DefaultJvmOutputLanguageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultJvmOutputLanguageWriter.m; path = Models/OutputLanguageWriters/DefaultJvmOutputLanguageWriter.m; sourceTree = "<group>"; };
 		7EE613901CD189E3003BBDC8 /* ScalaCompanionObjectTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ScalaCompanionObjectTemplate.txt; path = Resources/Templates/ScalaCompanionObjectTemplate.txt; sourceTree = "<group>"; };
-		CC6FAA4DD08944659C3B3970 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB54E49B5571243AACE1FB2 /* Pods-JSON Accelerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Accelerator.release.xcconfig"; path = "Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator.release.xcconfig"; sourceTree = "<group>"; };
+		ABDB65FB12CECD62913F6865 /* libPods-json-accelerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-json-accelerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F135CE97CC62C8EED496A1CE /* Pods-json-accelerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-accelerator.release.xcconfig"; path = "Target Support Files/Pods-json-accelerator/Pods-json-accelerator.release.xcconfig"; sourceTree = "<group>"; };
+		F29A7210CFD3EADCC354DC1B /* Pods-json-accelerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-accelerator.debug.xcconfig"; path = "Target Support Files/Pods-json-accelerator/Pods-json-accelerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +252,7 @@
 				4473B40D150FEBFA008401B5 /* QuartzCore.framework in Frameworks */,
 				7D00408714A24F1700235189 /* AddressBook.framework in Frameworks */,
 				44233128149B9E290071978D /* Cocoa.framework in Frameworks */,
-				3231253BA26670E24022B206 /* libPods-JSON Accelerator.a in Frameworks */,
+				8BC414825B1CF5BA13981BE5 /* libPods-JSON Accelerator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E17C7116719F1200945E6D /* Foundation.framework in Frameworks */,
+				DD56EFDE1B3CFC8A7D262B87 /* libPods-json-accelerator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +287,7 @@
 				44E17C7216719F1200945E6D /* json-accelerator */,
 				441FC4E51462D8E1007BF9DC /* Frameworks */,
 				441FC4E31462D8E1007BF9DC /* Products */,
-				68D3069908865A62BFC45B20 /* Pods */,
+				563BE1B2982C1B351D07F14A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -309,8 +313,8 @@
 				441FC5041462D8E1007BF9DC /* SenTestingKit.framework */,
 				44E17C7016719F1200945E6D /* Foundation.framework */,
 				441FC4E81462D8E1007BF9DC /* Other Frameworks */,
-				CC6FAA4DD08944659C3B3970 /* libPods.a */,
-				2C0AE914DFD3F3C8AF6E9A87 /* libPods-JSON Accelerator.a */,
+				27E0EF2678FC30A270ABDF59 /* libPods-JSON Accelerator.a */,
+				ABDB65FB12CECD62913F6865 /* libPods-json-accelerator.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -557,13 +561,15 @@
 			name = OutputLanguageWriters;
 			sourceTree = "<group>";
 		};
-		68D3069908865A62BFC45B20 /* Pods */ = {
+		563BE1B2982C1B351D07F14A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4505C6A433EB3CFD4DD50D65 /* Pods-JSON Accelerator.debug.xcconfig */,
-				523C1401A74134B179BA71B8 /* Pods-JSON Accelerator.release.xcconfig */,
+				01E6FD82FDBA9B23282949DD /* Pods-JSON Accelerator.debug.xcconfig */,
+				9DB54E49B5571243AACE1FB2 /* Pods-JSON Accelerator.release.xcconfig */,
+				F29A7210CFD3EADCC354DC1B /* Pods-json-accelerator.debug.xcconfig */,
+				F135CE97CC62C8EED496A1CE /* Pods-json-accelerator.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		7D384DB814ACF86E0073EA2C /* Save Panel Accessory View */ = {
@@ -602,13 +608,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4423313A149B9E290071978D /* Build configuration list for PBXNativeTarget "JSON Accelerator" */;
 			buildPhases = (
-				F30C6AA9BA67611F2B2A33F2 /* Check Pods Manifest.lock */,
+				7DC83070A69517953619D644 /* [CP] Check Pods Manifest.lock */,
 				4423310B149B9E290071978D /* Sources */,
 				44233127149B9E290071978D /* Frameworks */,
 				44233129149B9E290071978D /* Resources */,
 				44233149149BA92A0071978D /* CopyFiles */,
-				4490E8A716924FE8007B4FBC /* Copy Pods Resources */,
-				0601296AFFC0432D76BA487D /* Embed Pods Frameworks */,
+				4E815799328BAD634B534022 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -623,6 +628,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44E17C7B16719F1200945E6D /* Build configuration list for PBXNativeTarget "json-accelerator" */;
 			buildPhases = (
+				8E3BC74BE139048A23A8D18E /* [CP] Check Pods Manifest.lock */,
 				44E17C6A16719F1200945E6D /* Sources */,
 				44E17C6B16719F1200945E6D /* Frameworks */,
 				44E17C6C16719F1200945E6D /* CopyFiles */,
@@ -650,6 +656,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ru,
 				de,
@@ -704,48 +711,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0601296AFFC0432D76BA487D /* Embed Pods Frameworks */ = {
+		4E815799328BAD634B534022 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4490E8A716924FE8007B4FBC /* Copy Pods Resources */ = {
+		7DC83070A69517953619D644 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSON Accelerator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSON Accelerator/Pods-JSON Accelerator-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		F30C6AA9BA67611F2B2A33F2 /* Check Pods Manifest.lock */ = {
+		8E3BC74BE139048A23A8D18E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-json-accelerator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -957,14 +984,16 @@
 		};
 		4423313B149B9E290071978D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4505C6A433EB3CFD4DD50D65 /* Pods-JSON Accelerator.debug.xcconfig */;
+			baseConfigurationReference = 01E6FD82FDBA9B23282949DD /* Pods-JSON Accelerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSONModeler/JSONAccelerator-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "JSONAccelerator-Info.plist";
 				INFOPLIST_PREPROCESS = NO;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdery.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JSON Accelerator";
@@ -975,14 +1004,16 @@
 		};
 		4423313C149B9E290071978D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 523C1401A74134B179BA71B8 /* Pods-JSON Accelerator.release.xcconfig */;
+			baseConfigurationReference = 9DB54E49B5571243AACE1FB2 /* Pods-JSON Accelerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSONModeler/JSONAccelerator-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "JSONAccelerator-Info.plist";
 				INFOPLIST_PREPROCESS = NO;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdery.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "JSON Accelerator";
@@ -993,6 +1024,7 @@
 		};
 		44E17C7916719F1200945E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29A7210CFD3EADCC354DC1B /* Pods-json-accelerator.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1013,6 +1045,7 @@
 		};
 		44E17C7A16719F1200945E6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F135CE97CC62C8EED496A1CE /* Pods-json-accelerator.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

@@ -71,7 +71,7 @@
     [self.validDataStructureField setStringValue:NSLocalizedString(@"Valid data structure", @"Message to state the the JSON is valid")];
     
     NSString *genFiles = NSLocalizedString(@"Generate Files", @"In the main screen, this is the button that writes out files");
-    (self.mainWindow).minSize = NSMakeSize(550, 588);
+    (self.mainWindow).minSize = NSMakeSize(550, 600);
     (self.genFilesView.textField).stringValue = genFiles;
     self.genFilesView.delegate = self;
     self.invalidDataView.delegate = self;
